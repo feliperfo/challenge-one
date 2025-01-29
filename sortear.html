@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftpalooza</title>
+    <link rel="icon" href="assets/favicon-sortear.png" type="image/png">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" class="giftpalooza-font">Giftpalooza</a></h1>
+        <nav>
+            <ul>
+                <li><a href="listadeamigos.html">Lista de Amigos</a></li>
+                <li><a href="sortear.html">Sortear</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sorteio">
+            <div class="content">
+                <div class="text">
+                    <h2>Sortear</h2>
+                    <p>Após criar a lista, cada amigo pode realizar seu próprio sorteio!</p>
+                    <div class="input-container">
+                        <input type="text" id="sorteandoInput" placeholder="Digite seu nome:" aria-label="Digite o nome de quem está sorteando">
+                    </div>
+                    <button id="sortearButton">Fazer sorteio</button>
+                    <p id="resultadoSorteio"></p>
+                </div>
+                <div class="image">
+                    <img src="assets/presente-aberto.jpeg" alt="Imagem de um presente aberto">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
